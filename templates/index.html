@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="keywords" content="Hi, x!, Berikut merupakan hasil review CV kami:">
+  <meta name="description" content="">
+  <meta name="page_type" content="np-template-header-footer-from-plugin">
+  <title>Hasil CV</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/nicepage.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/Hasil-CV.css') }}">
+  <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+  <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+  <meta name="generator" content="Nicepage 4.0.3, nicepage.com">
+  <link id="u-theme-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+  <link id="u-page-google-font" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
+
+  <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}</script>
+  <meta name="theme-color" content="#478ac9">
+  <meta property="og:title" content="Hasil CV">
+  <meta property="og:type" content="website">
+</head>
+
+<body class="u-body">
+  <section class="u-clearfix u-custom-color-4 u-section-1" id="carousel_0f47">
+    <div class="u-expanded-width u-shape u-shape-rectangle u-white u-shape-1"></div>
+    <div class="u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <div class="u-container-style u-grey-5 u-list-item u-radius-20 u-repeater-item u-shape-round u-list-item-1">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+            <h3 class="u-custom-font u-text u-text-default u-text-1">Nilai CV</h3>
+            <p class="u-text u-text-2">Nilai CV anda {{ cvscore }} dari 100 </p>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-5 u-list-item u-radius-20 u-repeater-item u-shape-round">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+            <h3 class="u-custom-font u-text u-text-default u-text-3">Keywords</h3>
+            <p class="u-text u-text-4">{{ keywords }}</p>
+          </div>
+        </div>
+        <div class="u-container-style u-grey-5 u-list-item u-radius-20 u-repeater-item u-shape-round">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+            <h3 class="u-custom-font u-text u-text-default u-text-5">Saran</h3>
+            <p class="u-text u-text-6">{{ saran }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+      <div class="u-gutter-0 u-layout">
+        <div class="u-layout-col">
+          <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-1">
+            <div class="u-container-layout u-valign-bottom u-container-layout-4">
+              <h1 class="u-custom-font u-text u-text-default u-text-7">Hai, Akselzen!</h1>
+              <a href="/pilih"
+                class="u-border-none u-btn u-btn-round u-button-style u-custom-color-1 u-hover-palette-1-base u-radius-50 u-btn-1">COBA ROLE LAIN</a>
+            </div>
+          </div>
+          <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-2">
+            <div class="u-container-layout u-valign-top u-container-layout-5">
+              <h2 class="u-custom-font u-text u-text-custom-color-2 u-text-default u-text-8">{{ role }}</h2>
+            </div>
+          </div>
+          <div class="u-container-style u-layout-cell u-size-20 u-layout-cell-3">
+            <div class="u-container-layout u-container-layout-6">
+              <h2 class="u-custom-font u-text u-text-default u-text-9">Berikut merupakan hasil review CV kamu:</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-8c0f">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <p class="u-small-text u-text u-text-variant u-text-1"> © 2021 Aksel ATS Checker - Tugas Besar Layanan Sistem dan
+        Teknologi Informasi Kelompok 5</p>
+    </div>
+  </footer>
+</body>
+
+</html>
